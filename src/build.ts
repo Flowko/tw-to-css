@@ -9,6 +9,7 @@ const buildConfig: BuildOptions = {
     "process.env.JEST_WORKER_ID": "1",
     "process.env.ENGINE": "stable",
     "process.env.OXIDE": "undefined",
+    "__OXIDE__": "undefined",
     __dirname: '"/"',
   },
   supported: {
