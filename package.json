@@ -1,0 +1,58 @@
+{
+    "name": "@flowko/tw-to-css",
+    "version": "0.0.1",
+    "description": "Tailwindcss Inline CSS",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs.js",
+    "unpkg": "dist/cdn.min.js",
+    "types": "./index.d.ts",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs.js",
+            "require": "./dist/index.js",
+            "browser": "./dist/cdn.min.js",
+            "types": "./index.d.ts"
+        }
+    },
+    "files": [
+        "index.d.ts",
+        "dist/*"
+    ],
+    "scripts": {
+        "build": "tsx src/build.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Flowko/tw-to-css.git"
+    },
+    "keywords": [
+        "tailwind",
+        "tailwindcss"
+    ],
+    "author": "Flowko (younesbarraddev@gmail.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Flowko/tw-to-css/issues"
+    },
+    "dependencies": {
+        "postcss": "8.4.27",
+        "postcss-css-variables": "0.19.0",
+        "postcss-js": "^4.0.1",
+        "tailwindcss": "3.3.3"
+    },
+    "devDependencies": {
+        "@types/node": "18.11.18",
+        "@types/postcss-css-variables": "0.18.0",
+        "esbuild": "0.19.2",
+        "tsx": "3.12.7",
+        "typescript": "5.1.6"
+    },
+    "homepage": "https://github.com/Flowko/tw-to-css#readme",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
