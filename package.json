@@ -1,6 +1,6 @@
 {
     "name": "@vue-email/tw-to-css",
-    "version": "0.0.7",
+    "version": "0.0.1",
     "description": "Tailwindcss Inline CSS",
     "main": "dist/index.js",
     "module": "dist/index.mjs.js",
@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Flowko/tw-to-css.git"
+        "url": "git+https://github.com/vue-email/tw-to-css.git"
     },
     "keywords": [
         "tailwind",
@@ -32,7 +32,7 @@
     "author": "Younes Barrad (younesbarraddev@gmail.com)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Flowko/tw-to-css/issues"
+        "url": "https://github.com/vue-email/tw-to-css/issues"
     },
     "dependencies": {
         "postcss": "8.4.21",
@@ -48,7 +48,7 @@
         "tsx": "3.12.2",
         "typescript": "4.9.4"
     },
-    "homepage": "https://github.com/Flowko/tw-to-css#readme",
+    "homepage": "https://github.com/vue-email/tw-to-css#readme",
     "engines": {
         "node": ">=16.0.0"
     },
