@@ -103,13 +103,3 @@ build({
   ...buildConfig,
 });
 
-// CDN
-build({
-  entryPoints: { "cdn.min": "src/builds/cdn.ts" },
-  bundle: true,
-  minify: true,
-  logLevel: "info",
-  outdir: "dist",
-  format: "iife",
-  ...buildConfig,
-});

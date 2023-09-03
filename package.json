@@ -1,17 +1,15 @@
 {
-    "name": "@flowko/tw-to-css",
-    "version": "0.0.6",
+    "name": "@vue-email/tw-to-css",
+    "version": "0.0.7",
     "description": "Tailwindcss Inline CSS",
     "main": "dist/index.js",
     "module": "dist/index.mjs.js",
-    "unpkg": "dist/cdn.min.js",
     "types": "./index.d.ts",
     "type": "module",
     "exports": {
         ".": {
             "import": "./dist/index.mjs.js",
             "require": "./dist/index.js",
-            "browser": "./dist/cdn.min.js",
             "types": "./index.d.ts"
         }
     },
@@ -31,7 +29,7 @@
         "tailwind",
         "tailwindcss"
     ],
-    "author": "Flowko (younesbarraddev@gmail.com)",
+    "author": "Younes Barrad (younesbarraddev@gmail.com)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Flowko/tw-to-css/issues"
